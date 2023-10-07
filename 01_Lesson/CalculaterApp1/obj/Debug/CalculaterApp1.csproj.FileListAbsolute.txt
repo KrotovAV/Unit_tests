@@ -1,0 +1,7 @@
+D:\GeekBrains\My Git\Unit_tests\01_Lesson\CalculaterApp1\obj\Debug\CalculaterApp1.csproj.AssemblyReference.cache
+D:\GeekBrains\My Git\Unit_tests\01_Lesson\CalculaterApp1\obj\Debug\CalculaterApp1.csproj.CoreCompileInputs.cache
+D:\GeekBrains\My Git\Unit_tests\01_Lesson\CalculaterApp1\bin\Debug\CalculaterApp1.exe.config
+D:\GeekBrains\My Git\Unit_tests\01_Lesson\CalculaterApp1\bin\Debug\CalculaterApp1.exe
+D:\GeekBrains\My Git\Unit_tests\01_Lesson\CalculaterApp1\bin\Debug\CalculaterApp1.pdb
+D:\GeekBrains\My Git\Unit_tests\01_Lesson\CalculaterApp1\obj\Debug\CalculaterApp1.exe
+D:\GeekBrains\My Git\Unit_tests\01_Lesson\CalculaterApp1\obj\Debug\CalculaterApp1.pdb
