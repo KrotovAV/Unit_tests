@@ -1,0 +1,7 @@
+D:\GeekBrains\My Git\Unit_tests\02_Lesson\Vehicle\bin\Debug\Vehicle.exe.config
+D:\GeekBrains\My Git\Unit_tests\02_Lesson\Vehicle\bin\Debug\Vehicle.exe
+D:\GeekBrains\My Git\Unit_tests\02_Lesson\Vehicle\bin\Debug\Vehicle.pdb
+D:\GeekBrains\My Git\Unit_tests\02_Lesson\Vehicle\obj\Debug\Vehicle.csproj.AssemblyReference.cache
+D:\GeekBrains\My Git\Unit_tests\02_Lesson\Vehicle\obj\Debug\Vehicle.csproj.CoreCompileInputs.cache
+D:\GeekBrains\My Git\Unit_tests\02_Lesson\Vehicle\obj\Debug\Vehicle.exe
+D:\GeekBrains\My Git\Unit_tests\02_Lesson\Vehicle\obj\Debug\Vehicle.pdb
