@@ -8,40 +8,9 @@ namespace Vehicle
 {
     class Garrage
     {
-        public List<Lorry> lorrys = new List<Lorry>();
         public List<Car> cars = new List<Car>();
-        public List<Bicycle> bicycles = new List<Bicycle>();
-
-        public void AddLorry()
-        {
-            int prise = 0, maxspeed = 0, year = 0, MaxCapacity = 0;
-            Console.WriteLine("Введите цену:");
-            try
-            {
-                prise = Convert.ToInt32(Console.ReadLine());
-            }
-            catch { }
-            Console.WriteLine("Введите максимальную скорость");
-            try
-            {
-                maxspeed = Convert.ToInt32(Console.ReadLine());
-            }
-            catch { }
-            Console.WriteLine("Введите год:");
-            try
-            {
-                year = Convert.ToInt32(Console.ReadLine());
-            }
-            catch { }
-            Console.WriteLine("Введите грузоподьемность");
-            try
-            {
-                MaxCapacity = Convert.ToInt32(Console.ReadLine());
-            }
-            catch { }
-            lorrys.Add(new Lorry(prise, maxspeed, year, MaxCapacity));
-        }
-
+        public List<Motorcycle> мotorcycles = new List<Motorcycle>();
+   
         public void AddCar()
         {
             int prise = 0, maxspeed = 0, year = 0, Power = 0;
@@ -72,7 +41,7 @@ namespace Vehicle
             cars.Add(new Car(prise, maxspeed, year, Power));
         }
 
-        public void AddBicycle()
+        public void AddMotorcycle()
         {
             int prise = 0, maxspeed = 0, year = 0, MaxPassengers = 0;
             Console.WriteLine("Введите цену:");
@@ -99,16 +68,9 @@ namespace Vehicle
                 MaxPassengers = Convert.ToInt32(Console.ReadLine());
             }
             catch { }
-            bicycles.Add(new Bicycle(prise, maxspeed, year, MaxPassengers));
+            мotorcycles.Add(new Motorcycle(prise, maxspeed, year, MaxPassengers));
         }
 
-        public void GetAllLorry()
-        {
-            foreach (Lorry lorry in lorrys)
-            {
-                Console.WriteLine("Цена: {0}, Максимальная скорость: {1}, Год: {2}, Максимальная грузоподьемность: {3};", lorry.Price, lorry.Maxspeed, lorry.Year, lorry.MaxCapacity);
-            }
-        }
 
         public void GetAllCar()
         {
@@ -118,11 +80,11 @@ namespace Vehicle
             }
         }
 
-        public void GetAllBicycle()
+        public void GetAllMotorcycle()
         {
-            foreach (Bicycle bicycle in bicycles)
+            foreach (Motorcycle motorcycle in мotorcycles)
             {
-                Console.WriteLine("Цена: {0}, Максимальная скорость: {1}, Год: {2}, Максимум пасажиров: {3};", bicycle.Price, bicycle.Maxspeed, bicycle.Year, bicycle.MaxPassengers);
+                Console.WriteLine("Цена: {0}, Максимальная скорость: {1}, Год: {2}, Максимум пасажиров: {3};", motorcycle.Price, motorcycle.Maxspeed, motorcycle.Year, motorcycle.MaxPassengers);
             }
         }
 
