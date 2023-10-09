@@ -37,18 +37,18 @@ namespace Vehicle.Tests
         public void TestNumWheelsOfNewCar_Returns4()
         {
             Car testCar = new Car();
-            int correctNumWheelsOfCar = 4;
-            int numWheelsOfNewCar = testCar.NumWheels;
-            Assert.AreEqual(correctNumWheelsOfCar, numWheelsOfNewCar);
+            int exeptedNumWheelsOfCar = 4;
+            int actualNumWheelsOfNewCar = testCar.NumWheels;
+            Assert.AreEqual(exeptedNumWheelsOfCar, actualNumWheelsOfNewCar);
         }
 
         [TestMethod]
         public void TestNumWheelsOfNewMotorcycle_Returns2()
         {
             Motorcycle testMotorcycle = new Motorcycle();
-            int correctNumWheelsOfMotorcycle = 2;
-            int numWheelsOfNewMotorcycle = testMotorcycle.NumWheels;
-            Assert.AreEqual(correctNumWheelsOfMotorcycle, numWheelsOfNewMotorcycle);
+            int exeptedNumWheelsOfMotorcycle = 2;
+            int actuaNumWheelsOfNewMotorcycle = testMotorcycle.NumWheels;
+            Assert.AreEqual(exeptedNumWheelsOfMotorcycle, actuaNumWheelsOfNewMotorcycle);
         }
 
         //- Проверить, что объект Car развивает скорость 60 в режиме тестового вождения
@@ -60,20 +60,20 @@ namespace Vehicle.Tests
         public void TestTestDriveSpeeedOfCar_Returns60()
         {
             Car testCar = new Car();
-            int correctTestDriveSpeeedOfCar = 60;
+            int exeptedTestDriveSpeeedOfCar = 60;
             testCar.TestDrive();
-            int testDriveSpeeedOfCar = testCar.Speed;
-            Assert.AreEqual(correctTestDriveSpeeedOfCar, testDriveSpeeedOfCar);
+            int actualTestDriveSpeeedOfCar = testCar.Speed;
+            Assert.AreEqual(exeptedTestDriveSpeeedOfCar, actualTestDriveSpeeedOfCar);
         }
 
         [TestMethod]
         public void TestTestDriveSpeeedOfMotorcycle_Returns75()
         {
             Motorcycle testMotorcycle = new Motorcycle();
-            int correctTestDriveSpeeedOfMotorcycle = 75;
+            int exeptedTestDriveSpeeedOfMotorcycle = 75;
             testMotorcycle.TestDrive();
-            int testDriveSpeeedOfMotorcycle = testMotorcycle.Speed;
-            Assert.AreEqual(correctTestDriveSpeeedOfMotorcycle, testDriveSpeeedOfMotorcycle);
+            int actualTestDriveSpeeedOfMotorcycle = testMotorcycle.Speed;
+            Assert.AreEqual(exeptedTestDriveSpeeedOfMotorcycle, actualTestDriveSpeeedOfMotorcycle);
         }
 
         //-Проверить, что в режиме парковки (сначала testDrive, потом park,
@@ -85,22 +85,22 @@ namespace Vehicle.Tests
         public void TestTestDriveAndParkSpeeedOfCar_Returns0()
         {
             Car testCar = new Car();
-            int correctParkSpeeedOfCar = 0;
+            int exeptedParkSpeeedOfCar = 0;
             testCar.TestDrive();
             testCar.Park();
-            int testDriveSpeeedOfCar = testCar.Speed;
-            Assert.AreEqual(correctParkSpeeedOfCar, testDriveSpeeedOfCar);
+            int actualTestDriveSpeeedOfCar = testCar.Speed;
+            Assert.AreEqual(exeptedParkSpeeedOfCar, actualTestDriveSpeeedOfCar);
         }
 
         [TestMethod]
         public void TestTestDriveAndParkSpeeedOfMotorcycle_Returns0()
         {
             Motorcycle testMotorcycle = new Motorcycle();
-            int correctParkSpeeedOfMotorcycle = 0;
+            int exeptedParkSpeeedOfMotorcycle = 0;
             testMotorcycle.TestDrive();
             testMotorcycle.Park();
-            int testDriveSpeeedOfMotorcycle = testMotorcycle.Speed;
-            Assert.AreEqual(correctParkSpeeedOfMotorcycle, testDriveSpeeedOfMotorcycle);
+            int actualTestDriveSpeeedOfMotorcycle = testMotorcycle.Speed;
+            Assert.AreEqual(exeptedParkSpeeedOfMotorcycle, actualTestDriveSpeeedOfMotorcycle);
         }
     }
 }
