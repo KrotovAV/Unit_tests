@@ -12,10 +12,21 @@ namespace Vehicle
         public int MaxPassengers { get; set; }
 
         //конструктор + конструктор базового класса
-        public Motorcycle(int prise, int maxspeed, int year, int MaxPassengers) : base(prise, maxspeed, year)
+        public Motorcycle(string company, string model, int year, int numWheels, int speed,  int MaxPassengers) : base(company, model, year, numWheels, speed)
         {
+            this.speed = 0;
             this.MaxPassengers = MaxPassengers;
         }
 
+        public override int testDrive()
+        {
+            speed = 75;
+            return speed;
+        }
+        public override int park()
+        {
+            speed = 0;
+            return speed;
+        }
     }
 }

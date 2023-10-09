@@ -3,28 +3,40 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Vehicle
 {
     abstract class Vehicle
     {
-        // исключения для классов наследников
-        protected Exception OutOfMaxBorder = new Exception("Исключение, превышена максимальна граница");
-        protected Exception NonBellowZero = new Exception("Исключение, введенное значение не может быть отрицательным!");
+        
+        protected string company, model; 
+        protected int year, numWheels, speed;
 
-        protected int price, maxspeed, year;
-
-        // свойство Стоимость
-        public int Price
+        public string Company
         {
-            get { return price; }
-            set { if (value > 0) price = value; }
+            get { return company; }
+            set { company = value; }
         }
-        // свойство Максимальная скорость
-        public int Maxspeed
+
+        public string Model
         {
-            get { return maxspeed; }
-            set { if (value > 0) maxspeed = value; }
+            get { return model; }
+            set { model = value; }
+        }
+
+        public int NumWheels
+        {
+            get { return numWheels; }
+            set { if (value > 0) numWheels = value; }
+        }
+
+        // свойство Максимальная скорость
+        public int Speed
+        {
+            get { return speed; }
+            //set { if (value > 0) speed = value; }
+            set { speed = value; }
         }
         // свойство Год выпуска
         public int Year
@@ -35,13 +47,16 @@ namespace Vehicle
 
         //конструктор класа!!!
 
-        public Vehicle(int price, int maxspeed, int year)
+        public Vehicle(string company, string model, int numWheels, int speed, int year)
         {
-            this.Price = price;
-            this.Maxspeed = maxspeed;
+            this.Company = company;
+            this.Model = model;
+            this.NumWheels = numWheels;
+            this.Speed = speed;
             this.Year = year;
         }
 
-
+        abstract public int testDrive();
+        abstract public int park();
     }
 }

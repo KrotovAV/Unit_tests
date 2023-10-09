@@ -13,10 +13,23 @@ namespace Vehicle
 
 
         //конструктор + унаследованный конструктор
-        public Car(int prise, int maxspeed, int year, int Power)
-            : base(prise, maxspeed, year)
+        public Car(string company, string model, int year, int numWheels, int speed, int Power) : base(company, model, year, numWheels, speed)
         {
+            this.speed = 0;
             this.Power = Power;
         }
+
+        public override int testDrive()
+        {
+            speed = 60;
+            return speed;
+        }
+        public override int park()
+        {
+            speed = 0;
+            return speed;
+        }
+
+
     }
 }
