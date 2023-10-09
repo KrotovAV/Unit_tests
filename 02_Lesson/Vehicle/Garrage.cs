@@ -10,6 +10,7 @@ namespace Vehicle
 {
     class Garrage
     {
+        //Car testCar = new Car("*", "**", 1900, 4, 0, 25);
         public List<Car> cars = new List<Car>();
         public List<Motorcycle> мotorcycles = new List<Motorcycle>();
    
@@ -46,13 +47,6 @@ namespace Vehicle
                 if (numWheels < 4) numWheels = 4;
             }
             catch { }
-
-            //Console.WriteLine("Введите скорость");
-            //try
-            //{
-            //    speed = Convert.ToInt32(Console.ReadLine());
-            //}
-            //catch { }
 
             Console.WriteLine("Введите мощьность:");
             try
@@ -98,11 +92,6 @@ namespace Vehicle
             }
             catch { }
 
-            //Console.WriteLine("Введите скорость");
-            //try
-            //{
-            //    speed = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine("Введите количество пасажиров:");
             try
             {
@@ -135,7 +124,7 @@ namespace Vehicle
             {
                 if (findModel.Equals(car.Model))
                 { 
-                    car.testDrive();
+                    car.TestDrive();
                     Console.WriteLine("Марка: {0}, Модель: {1}, Год: {2}, Колес: {3}, Скорость: {4}, Мощность: {5};", car.Company, car.Model, car.Year, car.NumWheels, car.Speed, car.Power);
                 }
                 else
@@ -158,7 +147,7 @@ namespace Vehicle
             {
                 if (findModel.Equals(car.Model))
                 {
-                    car.park();
+                    car.Park();
                     Console.WriteLine("Марка: {0}, Модель: {1}, Год: {2}, Колес: {3}, Скорость: {4}, Мощность: {5};", car.Company, car.Model, car.Year, car.NumWheels, car.Speed, car.Power);
                 }
                 else
@@ -188,7 +177,7 @@ namespace Vehicle
             {
                 if (findModel.Equals(motorcycle.Model))
                 {
-                    motorcycle.testDrive();
+                    motorcycle.TestDrive();
                     Console.WriteLine("Марка: {0}, Модель: {1}, Год: {2}, Колес: {3}, Скорость: {4}, Макс.пассажиров: {5};", motorcycle.Company, motorcycle.Model, motorcycle.Year, motorcycle.NumWheels, motorcycle.Speed, motorcycle.MaxPassengers);
                 }
                 else
@@ -212,7 +201,7 @@ namespace Vehicle
             {
                 if (findModel.Equals(motorcycle.Model))
                 {
-                    motorcycle.park();
+                    motorcycle.Park();
                     Console.WriteLine("Марка: {0}, Модель: {1}, Год: {2}, Колес: {3}, Скорость: {4}, Макс.пассажиров: {5};", motorcycle.Company, motorcycle.Model, motorcycle.Year, motorcycle.NumWheels, motorcycle.Speed, motorcycle.MaxPassengers);
                 }
                 else

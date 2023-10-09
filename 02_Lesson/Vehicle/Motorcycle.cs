@@ -6,10 +6,20 @@ using System.Threading.Tasks;
 
 namespace Vehicle
 {
-    class Motorcycle : Vehicle
+    public class Motorcycle : Vehicle
     {
         //оригинальное поле для мотоциклов
         public int MaxPassengers { get; set; }
+
+        public Motorcycle()
+        {
+            company = "*";
+            model = "**";
+            year = 1900;
+            numWheels = 2;
+            speed = 0;
+            this.MaxPassengers = MaxPassengers;
+        }
 
         //конструктор + конструктор базового класса
         public Motorcycle(string company, string model, int year, int numWheels, int speed,  int MaxPassengers) : base(company, model, year, numWheels, speed)
@@ -18,12 +28,12 @@ namespace Vehicle
             this.MaxPassengers = MaxPassengers;
         }
 
-        public override int testDrive()
+        public override int TestDrive()
         {
             speed = 75;
             return speed;
         }
-        public override int park()
+        public override int Park()
         {
             speed = 0;
             return speed;

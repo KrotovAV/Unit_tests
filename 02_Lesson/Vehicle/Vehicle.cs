@@ -7,10 +7,10 @@ using System.Xml.Linq;
 
 namespace Vehicle
 {
-    abstract class Vehicle
+    abstract public class Vehicle
     {
-        
-        protected string company, model; 
+
+        protected string company, model;
         protected int year, numWheels, speed;
 
         public string Company
@@ -31,7 +31,7 @@ namespace Vehicle
             set { if (value > 0) numWheels = value; }
         }
 
-        // свойство Максимальная скорость
+        // скорость
         public int Speed
         {
             get { return speed; }
@@ -46,7 +46,14 @@ namespace Vehicle
         }
 
         //конструктор класа!!!
-
+        public Vehicle()
+        {
+            this.Company = company;
+            this.Model = model;
+            this.NumWheels = numWheels;
+            this.Speed = speed;
+            this.Year = year;
+        }
         public Vehicle(string company, string model, int numWheels, int speed, int year)
         {
             this.Company = company;
@@ -56,7 +63,7 @@ namespace Vehicle
             this.Year = year;
         }
 
-        abstract public int testDrive();
-        abstract public int park();
+        abstract public int TestDrive();
+        abstract public int Park();
     }
 }

@@ -6,25 +6,34 @@ using System.Threading.Tasks;
 
 namespace Vehicle
 {
-    class Car : Vehicle
+    public class Car : Vehicle
     {
         //оригинальное поле для авто
         public int Power { get; set; }
 
 
-        //конструктор + унаследованный конструктор
-        public Car(string company, string model, int year, int numWheels, int speed, int Power) : base(company, model, year, numWheels, speed)
+        public Car()
         {
-            this.speed = 0;
+            company = "*";
+            model = "**";
+            year = 1900;
+            numWheels = 4;
+            speed = 0;
             this.Power = Power;
         }
 
-        public override int testDrive()
+        //конструктор + унаследованный конструктор
+        public Car(string company, string model, int year, int numWheels, int speed, int Power) : base(company, model, year, numWheels, speed)
+        {
+            this.Power = Power;
+        }
+
+        public override int TestDrive()
         {
             speed = 60;
             return speed;
         }
-        public override int park()
+        public override int Park()
         {
             speed = 0;
             return speed;
