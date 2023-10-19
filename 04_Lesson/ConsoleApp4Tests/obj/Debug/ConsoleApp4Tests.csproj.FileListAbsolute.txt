@@ -1,0 +1,2 @@
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4Tests\obj\Debug\ConsoleApp4Tests.csproj.AssemblyReference.cache
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4Tests\obj\Debug\ConsoleApp4Tests.csproj.CoreCompileInputs.cache

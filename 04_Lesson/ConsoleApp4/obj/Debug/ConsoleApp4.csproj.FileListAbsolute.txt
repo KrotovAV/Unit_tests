@@ -1,0 +1,16 @@
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\Castle.Core.dll
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\Moq.dll
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\Castle.Core.xml
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\Moq.xml
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.AssemblyReference.cache
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CopyComplete
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+D:\GeekBrains\My Git\Unit_tests\04_Lesson\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
