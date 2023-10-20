@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    public interface IRepository
+    public interface BookRepository
     {
-        int GetCount();
-        Book GetBook(int index);
-        void Add(Book book);
+        Book findById(String Id);
+        List<Book> findAll();
+
     }
 }
