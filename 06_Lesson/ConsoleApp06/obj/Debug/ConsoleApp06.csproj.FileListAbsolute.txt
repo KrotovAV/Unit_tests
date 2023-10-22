@@ -1,0 +1,7 @@
+D:\GeekBrains\My Git\Unit_tests\06_Lesson\ConsoleApp06\bin\Debug\ConsoleApp06.exe.config
+D:\GeekBrains\My Git\Unit_tests\06_Lesson\ConsoleApp06\bin\Debug\ConsoleApp06.exe
+D:\GeekBrains\My Git\Unit_tests\06_Lesson\ConsoleApp06\bin\Debug\ConsoleApp06.pdb
+D:\GeekBrains\My Git\Unit_tests\06_Lesson\ConsoleApp06\obj\Debug\ConsoleApp06.csproj.AssemblyReference.cache
+D:\GeekBrains\My Git\Unit_tests\06_Lesson\ConsoleApp06\obj\Debug\ConsoleApp06.csproj.CoreCompileInputs.cache
+D:\GeekBrains\My Git\Unit_tests\06_Lesson\ConsoleApp06\obj\Debug\ConsoleApp06.exe
+D:\GeekBrains\My Git\Unit_tests\06_Lesson\ConsoleApp06\obj\Debug\ConsoleApp06.pdb
