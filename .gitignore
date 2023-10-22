@@ -22,3 +22,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/06_Lesson/ConsoleApp6/bin/Debug/ConsoleApp6.exe.config
+/06_Lesson/ConsoleApp6/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+/06_Lesson/ConsoleApp6/obj/Debug/ConsoleApp6.csproj.AssemblyReference.cache
