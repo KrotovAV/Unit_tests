@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{74DBCA88-1C2E-47E9-8D3F-C6B86EB485C4}</ProjectGuid>
+    <ProjectGuid>{02312D8C-6F3C-4E42-B7CA-5AA68B1D6053}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApp6Tests</RootNamespace>
-    <AssemblyName>ConsoleApp6Tests</AssemblyName>
+    <RootNamespace>ConsoleApp6.Tests</RootNamespace>
+    <AssemblyName>ConsoleApp6.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConsoleApp6\ConsoleApp6.csproj">
-      <Project>{4746ae00-4938-44c2-840d-d97c695f13ef}</Project>
+      <Project>{3cce429b-b2b2-4cf1-98ad-710a11d0a1fd}</Project>
       <Name>ConsoleApp6</Name>
     </ProjectReference>
   </ItemGroup>

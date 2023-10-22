@@ -21,13 +21,13 @@ namespace ConsoleApp6
 
         public double AverageList1()
         {
-            if (List1.Count > 0) 
-            { 
+            if (List1.Count > 0)
+            {
                 return List1.Sum(x => x) / List1.Count;
             }
-            else 
+            else
             {
-                return 0; 
+                return 0;
             }
         }
         public double AverageList2()
@@ -36,10 +36,10 @@ namespace ConsoleApp6
             {
                 return List2.Sum(x => x) / List2.Count;
             }
-            else 
-            { 
-                return 0; 
-            }  
+            else
+            {
+                return 0;
+            }
         }
 
         public string ComparesAvgs()

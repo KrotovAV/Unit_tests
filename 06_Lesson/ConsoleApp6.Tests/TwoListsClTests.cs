@@ -1,10 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Collections.Generic;
 using System;
-using System.Runtime.ConstrainedExecution;
-using ConsoleApp6;
+using System.Collections.Generic;
 
-namespace ConsoleApp6Tests
+namespace ConsoleApp6.Tests
 {
     [TestClass]
     public class TwoListsClTests
